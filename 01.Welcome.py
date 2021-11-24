@@ -5,7 +5,7 @@ app=flask.Flask(__name__)
 
 @app.route("/",methods=["GET"])
 def home():
-	return "Welcome"
+	return "Welcome Megha"
 
 @app.route("/mujahed", methods=["GET"])
 def myfunc():
